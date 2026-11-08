@@ -4,14 +4,18 @@ on:
   push:
     branches:
       - main
-      
+
+permissions:
+  contents: write
+
 jobs:
   CI:
+    if: ${{ !contains(github.event.head_commit.message, '[skip linklist deploy]') }}
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        pnpm-version: [10]
-        node-version: [22]
+        pnpm-version: [12]
+        node-version: [26]
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -32,12 +36,27 @@ jobs:
           key: ${{runner.os}}-${{env.cache-name}}-${{hashFiles('package.json')}}
       - name: Install dependencies
         run: pnpm install
+      - name: Validate links
+        run: pnpm validate
       - name: Run sort script
-        run: pnpm tsx sort.ts
-      - name: Commit and push
+        run: pnpm sort
+      - name: Commit and push sorted YAML
         run: |
           git config --local user.email "148861329+inslicc@users.noreply.github.com"
           git config --local user.name "inslicc"
-          git add -A
-          git diff --staged --quiet || git commit -m "chore: auto-sort YAML file"
-          git push
+          git add -- src/list.yml
+          if git diff --cached --quiet; then
+            echo "No sorted YAML changes."
+          else
+            git commit -m "chore: auto-sort YAML file [skip linklist deploy]"
+            git push origin HEAD:main
+          fi
+      - name: Build linklist JSON
+        run: pnpm build
+      - name: Deploy to Cloudflare Workers
+        uses: cloudflare/wrangler-action@v3
+        with:
+          accountId: ${{ secrets.CF_ACCOUNT_ID }}
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          command: deploy
+          wranglerVersion: '4.150.0'
