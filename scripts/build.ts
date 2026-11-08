@@ -9,7 +9,7 @@ const LINK_FILE_PATH = new URL("../src/list.yml", import.meta.url);
 const OUTPUT_FILE_PATH = new URL("../dist/linklist.json", import.meta.url);
 const IMAGE_SOURCE_PATH = new URL("../src/img/", import.meta.url);
 const IMAGE_OUTPUT_PATH = new URL("../dist/img/", import.meta.url);
-const AVATAR_BASE_URL = "https://api.sirvr.win/linklist/img/";
+const AVATAR_BASE_URL = "https://treasures-dist.sirvr.win/img/";
 
 try {
   const source = readFileSync(LINK_FILE_PATH, "utf8");
