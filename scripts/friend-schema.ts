@@ -9,6 +9,7 @@ export const friendSchema = z
       .refine((value) => value.startsWith("https://"), {
         message: "Link must use HTTPS",
       }),
+    rss: z.url().optional(),
   })
   .strict();
 

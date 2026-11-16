@@ -6,18 +6,22 @@ Big_Cake:
   slogan: 也许我们会分别，但我们将永远不会忘记彼此。
   avatar: www.notbigcake.net.webp
   link: https://www.notbigcake.net
+  rss: http://notbigcake.net/atom.xml
 bingling_sama:
   slogan: The stars are not afraid to appear like fireflies.
   avatar: blog.booling.cn.webp
   link: https://blog.booling.cn
+  rss: https://blog.booling.cn/feed.xml
 Bingxin:
   slogan: 相聚于此乐土。
   avatar: byteloid.one.webp
   link: https://www.byteloid.one
+  rss: https://blog.byteloid.one/atom.xml
 BLxcwg666:
   slogan: 静かで奥深い
   avatar: blog.nekorua.com.webp
   link: https://blog.xcnya.cn
+  rss: https://blog.xcnya.cn/feed
 bsdayo:
   slogan: 怎么会是呢？
   avatar: blog.bsdayo.moe.webp
@@ -30,30 +34,37 @@ Charlie Yu:
   slogan: 一只猫猫
   avatar: blog.charlie.moe.webp
   link: https://blog.charlie.moe
+  rss: https://blog.charlie.moe/feed.xml
 Cheny:
   slogan: 明天的事，交给明天的我
   avatar: cheny.cc.webp
   link: https://cheny.cc
+  rss: https://cheny.cc/atom.xml
 chihuo2104:
   slogan: 遇到困难睡大觉
   avatar: blog.chihuo2104.dev.webp
   link: https://blog.chihuo2104.dev
+  rss: https://blog.chihuo2104.dev/index.xml
 ChrAlpha:
   slogan: 你必须拼尽全力，才能显得毫不费力
   avatar: blog.ichr.me.webp
   link: https://blog.ichr.me
+  rss: https://blog.ichr.me/atom.xml
 Cynosura:
   slogan: Trying to light up the dark.
   avatar: cynosura.one.webp
   link: https://cynosura.one
+  rss: https://cynosura.one/rss.xml
 Edison Jwa:
   slogan: The world can always use more heroes.
   avatar: www.wevg.org.webp
   link: https://www.wevg.org
+  rss: https://www.wevg.org/atom.xml
 Fidel:
   slogan: 我们有缘再见。
   avatar: fidel.js.org.webp
   link: https://fidel.js.org
+  rss: https://fidel.js.org/rss.xml
 Haskell:
   slogan: stay awake and wonder if there's a dog
   avatar: hskl.me.webp
@@ -62,6 +73,7 @@ Hsuan:
   slogan: Follow your bliss.
   avatar: quarkpixel.github.io.webp
   link: https://quarkpixel.github.io/
+  rss: https://quarkpixel.github.io/feed/rss.xml
 huige:
   slogan: Everyone can be the light in the darkness.
   avatar: www.huige233.com.webp
@@ -86,10 +98,12 @@ LineXic:
   slogan: 具体问题，具体分析。
   avatar: www.linexic.top.webp
   link: https://www.linexic.top
+  rss: https://www.linexic.top/rss.xml
 LynxCatTheThird:
   slogan: An AGI from the 103rd century.
   avatar: www.lynx3.me.webp
   link: https://www.lynx3.me/
+  rss: https://www.lynx3.me/rss2.xml
 March 7th:
   slogan: 游走在梦与现实的边缘，我与你相隔的是，整个世界。
   avatar: blog.0721.uk.webp
@@ -102,10 +116,12 @@ Mayx:
   slogan: Mayx's Home Page
   avatar: mabbs.github.io.webp
   link: https://mabbs.github.io
+  rss: https://mabbs.github.io/rss.xml
 MBRjun:
   slogan: 我们生活在大地上，但我们的梦想超越天空
   avatar: www.mbrjun.cn.webp
   link: https://www.mbrjun.cn
+  rss: https://www.libmbr.com/atom.xml
 Minseong 'FLYEMOJI' Choi:
   slogan: 重新面对生活。
   avatar: blog.flyemoji.moe.webp
@@ -118,26 +134,32 @@ Misaka13514:
   slogan: RadioNoise
   avatar: blog.apeiria.net.webp
   link: https://blog.apeiria.net
+  rss: https://blog.apeiria.net/atom.xml
 Muji:
   slogan: その人の声を 聞くだけで 失神しそうな
   avatar: blog.mjt.asia.webp
   link: https://blog.mjt.asia
+  rss: https://blog.mjt.asia/atom.xml
 Murasame:
   slogan: 我已经下了决心，要与深爱的少女一起在这片土地生活下去。我对此无比自豪。
   avatar: blog.shirayukinoa.top.webp
   link: https://blog.shirayukinoa.top
+  rss: https://blog.shirayukinoa.top/rss.xml
 NeverBehave:
   slogan: 不明の谜之Furry
   avatar: blog.never.pet.webp
   link: https://blog.never.pet
+  rss: https://blog.never.pet/feed.xml
 Paji:
   slogan: Ess muss sein!
   avatar: blog.paji.uk.webp
   link: https://blog.paji.uk
+  rss: https://blog.paji.uk/atom.xml
 Pan:
   slogan: 哥哥好厉害😭
   avatar: blog.pan93.com.webp
   link: https://blog.pan93.com
+  rss: https://blog.pan93.com/index.xml
 Phrinky:
   slogan: Ricky 的各种日常捏
   avatar: blog.rkk.moe.webp
@@ -146,10 +168,12 @@ Pig Fang:
   slogan: Errors should be human-friendly.
   avatar: blog.gplane.win.webp
   link: https://blog.gplane.win
+  rss: https://blog.gplane.win/atom.xml
 Ray:
   slogan: 勿忘初心，方得始终。
   avatar: blog.r-ay.cn.webp
   link: https://blog.r-ay.cn
+  rss: https://blog.r-ay.cn/atom.xml
 Remi:
   slogan: Remi 的 Blog
   avatar: blog.remiki.ren.webp
@@ -174,10 +198,12 @@ Sukka:
   slogan: 童话只美在真实却从不续写
   avatar: blog.skk.moe.webp
   link: https://blog.skk.moe
+  rss: https://blog.skk.moe/atom.xml
 Teacher Du:
   slogan: 师者，传道，授业，解惑！
   avatar: dusays.com.webp
   link: https://dusays.com
+  rss: https://dusays.com/atom.xml
 vahiru:
   slogan: “愿你能被世界温柔以待”
   avatar: vahiru.xyz.webp
@@ -186,14 +212,17 @@ wuhang2003:
   slogan: 一起来玩吧~
   avatar: zwh.moe.webp
   link: https://zwh.moe
+  rss: https://zwh.moe/feed
 北尘:
   slogan: 一个热爱创造的高中生
   avatar: www.beichen.icu.webp
   link: https://www.beichen.icu
+  rss: https://blog.beichen.icu/rss.xml
 草方块:
   slogan: A random block
   avatar: lab.gb0.dev.webp
   link: https://lab.gb0.dev
+  rss: https://lab.gb0.dev/rss.xml
 咕谷酱:
   slogan: 「世界に忘れられた」
   avatar: www.gmoe.cc.webp
@@ -206,6 +235,7 @@ wuhang2003:
   slogan: 给岁月以文明，而不是给文明以岁月。
   avatar: shakaianee.top.webp
   link: https://shakaianee.top
+  rss: https://shakaianee.top/feed/
 小鳥遊 暁:
   slogan: 专注音质的安卓平台Galgame移植者 | 快端上来吧，我等不及了！
   avatar: t-satoru.top.webp
@@ -214,7 +244,9 @@ wuhang2003:
   slogan: 浩繁星空下的一场稚嫩的梦
   avatar: blog.chyk.ink.webp
   link: https://blog.chyk.ink
+  rss: https://blog.chyk.ink/atom.xml
 纸鹿:
   slogan: 纸鹿至麓不知路，支炉制露不止漉
   avatar: www.zhilu.site.webp
   link: https://www.zhilu.site
+  rss: https://blog.zhilu.site/atom.xml
