@@ -46,11 +46,6 @@ ChrAlpha:
   avatar: blog.ichr.me.webp
   link: https://blog.ichr.me
   rss: https://blog.ichr.me/atom.xml
-赤茶:
-  slogan: Trying to light up the dark.
-  avatar: cynosura.one.webp
-  link: https://cynosura.one
-  rss: https://cynosura.one/rss.xml
 Edison Jwa:
   slogan: The world can always use more heroes.
   avatar: www.wevg.org.webp
@@ -215,6 +210,11 @@ wuhang2003:
   avatar: lab.gb0.dev.webp
   link: https://lab.gb0.dev
   rss: https://lab.gb0.dev/rss.xml
+赤茶:
+  slogan: Trying to light up the dark.
+  avatar: cynosura.one.webp
+  link: https://cynosura.one
+  rss: https://cynosura.one/rss.xml
 咕谷酱:
   slogan: 「世界に忘れられた」
   avatar: www.gmoe.cc.webp
